@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home/Twitter</title>
+    <!-- CSS FILE LINK -->
+    <link  rel="stylesheet" href="styles.css">
+    <link rel="icon" href="twitter_logo_blue.png.twimg.768.png">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/bf1c643ee2.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+</head>
+
+<body class="">
+    <div class="container-fluid container-md">
+                   <!-- xs NAV BAR -->
+                <nav class=" bg-light xs-nav fixed-bottom    d-sm-none">
+                    <div class="container-fluid">
+                        <div class="row h-50">
+                            <div class="col-3">
+                                <span><i class="fa-solid fa-house fs-3 py-3"></i></span>
+                            </div>
+                            <div class="col-3">
+                            <span><i class="fa-solid fa-magnifying-glass fs-2 py-3 "></i></span>
+                            </div>
+                            <div class="col-3">
+                            <span><i class="fa-solid fa-bell fs-2 py-3"></i></span>
+                            </div>
+                            <div class="col-3 ">
+                                <span><i class="fa-solid fa-envelope fs-2 py-3"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+        <div class="row ">
+            
+            <!-- LEFT SIDE BAR -->
+            <div
+                class="d-none col-sm-2  d-sm-block  col-md-3 col-lg-2 d-flex flex-column text-sm-end text-md-start  align-items-lg-start left_sidebar border-end ">
+                <div>
+                    <span><i class="fa-brands fa-twitter display-5 text-info py-3  "></i></span>
+                    
+                </div>
+                <!-- Left Icons -->
+                <div class="d-flex align-items-center justify-content-sm-end justify-content-md-start">
+                    <span><i class="fa-solid fa-house fs-4 py-4"></i></span>
+                    <p class="d-none d-md-block fs-5 pt-2 ps-2 fw-bold">Home</p>
+                  </div>
+                  
+                <div class="d-flex align-items-center d-block d-md-none  justify-content-sm-end justify-content-md-start justify-content-sm-end justify-content-md-start">
+                    <span><i class="fa-solid fa-magnifying-glass fs-2 py-3 "></i></span>
+                    <!-- <p class="d-none d-lg-block fs-3 pt-3 ps-1">Home</p> -->
+                </div>
+                <div class="d-flex align-items-center  justify-content-sm-end justify-content-md-start">
+                    <span><i class="fa-solid fa-hashtag fs-4 py-4 d-none d-md-block"></i></span>
+                    <p class="d-none d-md-block fs-5 pt-3 ps-2">Explore</p>
+                </div>
+                <div class="d-flex align-items-center  justify-content-sm-end justify-content-md-start">
+                    <span><i class="fa-solid fa-bell fs-4 py-4"></i></span>
+                    <p class="d-none d-md-block fs-5 pt-3 ps-2">Notifications</p>
+                </div>
+                <div class="d-flex align-items-center  justify-content-sm-end justify-content-md-start">
+                    <span><i class="fa-solid fa-envelope fs-4 py-4"></i></span>
+                    <p class="d-none d-md-block fs-5 pt-3 ps-2">Messages</p>
+                </div>
+              
+                <div class="d-flex align-items-center  justify-content-sm-end justify-content-md-start">
+                    <span><i class="fa-solid fa-user fs-4 py-4"></i></span>
+                    <p class="d-none d-md-block fs-5 pt-3 ps-2">Profile</p>
+                </div>
+                <div class="d-flex align-items-center  justify-content-sm-end justify-content-md-start">
+                    <span><i class="fa-solid fa-ellipsis fs-4 py-4"></i></span>
+                    <p class="d-none d-md-block fs-5 pt-2 ps-2">More</p>
+                </div>
+               
+                <div class="col-2">
+                    <img src="ambut.jpg" class="rounded-circle" alt="your-alt-text" height="50px" width="60px">
+                </div>
+            </div>
+
+            <!-- MAIN SECTION -->
+            <div class="col-12 col-sm-10 col-md-9 col-lg-6  main_bar ">
+                <div class="row d-flex justify-content-between align-items-center ps-1">
+                    <div class="col-1 pt-2">
+                        <div><span class="fs-4 fw-bold">Home</span></div>
+            
+                    </div>
+                    
+                </div>
+                <div class="row mt-4">
+                    <div class="col pt-2 ">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="ambut.jpg" class="rounded-circle" alt="your-alt-text" height="50px" width="60px">
+                            </div>
+                            <div class="col-9 col-sm-10 ">
+                                <input class="border-0 bg  form-control-lg" type="text" placeholder="What's happening?">
+                                <div class="ps-3 d-flex text-info">
+                                    <p><span><i class="fa-solid fa-earth-americas "></i></span></p>
+                                    <p class="fw-bold ps-1 ">Everyone can reply</p>
+                                    <hr>
+                                </div>
+                                 <!-- Post Icons -->
+                                <div class="row pb-2 justify-content-center">
+                                    <div class="col-9 text-info">
+                                        <span class="ps-3"><i class="fa-solid fa-image"></i></span>
+                                        <span class="ps-3"><i class="fa-solid fa-gift"></i></span>
+                                        <span class="ps-3"><i class="fa-solid fa-face-grin"></i></span>
+                                        <span class="ps-3"><i class="fa-solid fa-location-pin"></i></span>
+                                    </div>
+                                    <div class="col-3 col-sm-2  ">
+                                        <a class="text-decoration-none fs-6  fw-bold text-white bg-info py-1 px-3  rounded-pill"
+                                            href="#">Tweet</a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <!-- Show tweets dapit -->
+                        <div class="row  d-flex  justify-content-between align-items-center border">
+                            <div class="col-11 col-sm-10 ps-5  pt-1 d-flex pt-2">
+                            
+                                <p class="ps-1">Show 455 Tweets <span class="text-info fw-bold "> </span>
+                                </p>
+                                
+                            </div>
+                            <div class="col-1 col-sm-2 text-end fs-5 pt-2 ps-2">
+                                <span><i class="fa-solid fa-xmark"></i></span>
+                            </div>
+                        </div>
+                        <!-- TWEET 1 -->
+                        <div class="row mt-1 border d-flex  ">
+                            <div class="col-2 mt-2">
+                                 <!-- username prof-->
+                                <img src="donna.jpg" class="rounded-circle" alt="your-alt-text" height="50px" width="60px">
+                            </div>
+                            <div class="col-9 ">
+                                <div class="row d-flex justify-content-between align-items-center ps-1">
+                                    <div class="col-10 pt-2 ">
+                                        <div>
+                                            <p><span class="fw-bold">Dimple </span>@dimplcrz . 23h</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 me-2 ps-0">
+                                        <div><span><i class="fa-solid fa-ellipsis fs-5 py-3"></i></span></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <p class="fw-normal">School girl</p>
+                                    <img src="school.jpg" class="img-thumbnail" alt="...">
+                                    <div class="row pt-4">
+                                        <!-- comment icon -->
+                                       
+                                        <div class="col">
+                                            <span><i class="fa-solid fa-comment"></i></span>
+                                            <span class="d-inline">1.5K</span>
+                                          </div>
+                                          
+                                         <!-- retweet icon -->
+                                        <div class="col"><span><i class="fa-solid fa-share-from-square"></i></span>
+                                            <span class="d-inline">5.6K</span> 
+                                        </div>
+                                        <!-- like icon -->
+                                        <div class="col"><i class="fa-solid fa-heart"></i>
+                                            <span class="d-inline">30.2k</span> 
+                                        </div>
+                                        <!-- share icon -->
+                                        <div class="col"><span><i class="fa-solid fa-share-nodes"></i></span></div>
+            
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- TWEET 2 -->
+                        <div class="row mt-1 border d-flex  ">
+                            <div class="col-2 mt-2">
+                                 <!-- username prof -->
+                                <img src="cat.jpg" class="rounded-circle" alt="your-alt-text" height="50px" width="60px">
+                            </div>
+                            <div class="col-9 ">
+                                <div class="row d-flex justify-content-between align-items-center ps-1">
+                                    <div class="col-10 pt-2 ">
+                                        <div>
+                                            <p><span class="fw-bold">HopelessRomantic </span>@hplssrmntc . 23h</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 me-2 ps-0">
+                                        <div><span><i class="fa-solid fa-ellipsis fs-5 py-3"></i></span></div>
+                                    </div>
+                                </div>
+                                <!-- content post -->
+                                <div class="col">
+                                    <p class="fw-normal">I wonder who's the first man that will give me flowers</p>
+                                    <img src="pera.jpg" class="img-thumbnail" alt="...">
+                                    
+                                    <div class="row pt-4">
+                                        <!-- comment icon -->
+                                        <div class="col"><span><i class="fa-solid fa-comment"></i></span>
+                                            <span class="d-inline">100</span> 
+                                        </div>
+                                        <!-- retweet icon -->
+                                        <div class="col"><span><i class="fa-solid fa-share-from-square"></i></span>
+                                            <span class="d-inline">2.1K</span> 
+                                        </div>
+                                        <!-- like icon -->
+                                        <div class="col"><i class="fa-solid fa-heart"></i>
+                                            <span class="d-inline">5.2k</span> 
+                                        </div>
+                                        <!-- share icon -->
+                                        <div class="col"><span><i class="fa-solid fa-share-nodes"></i></span></div>
+                                    </div>
+                        
+                                </div>
+                        
+                            </div>
+                        </div>
+
+
+                        <!-- TWEET 3 -->
+                        <div class="row mt-1 border d-flex  ">
+                            <div class="col-2 mt-2">
+                        
+                                <img src="tine.jpg" class="rounded-circle" alt="your-alt-text" height="50px" width="60px">
+                            </div>
+                            <div class="col-9 ">
+                                <div class="row d-flex justify-content-between align-items-center ps-1">
+                                    <div class="col-10 pt-2 ">
+                                        <div>
+                                            <p><span class="fw-bold">Christine </span>@tinaaaa . 23h</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 me-2 ps-0">
+                                        <div><span><i class="fa-solid fa-ellipsis fs-5 py-3"></i></span></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <img src="christine.jpg" class="img-thumbnail" alt="...">
+                                    
+                                    <div class="row pt-4">
+                                        <div class="col"><span><i class="fa-solid fa-comment"></i></span>
+                                            <span class="d-inline">500</span> 
+                                        </div>
+                                        <div class="col"><span><i class="fa-solid fa-share-from-square"></i></span>
+                                            <span class="d-inline">5.1K</span> 
+                                        </div>
+                                        <div class="col"><i class="fa-solid fa-heart"></i>
+                                            <span class="d-inline">10.2k</span> 
+                                        </div>
+                                        <div class="col"><span><i class="fa-solid fa-share-nodes"></i></span></div>
+                                    </div>
+                        
+                                </div>
+                        
+                            </div>
+                        </div>
+
+                        <!-- TWEET 4 -->
+                        <div class="row mt-1 border d-flex  ">
+                            <div class="col-2 mt-2">
+                        
+                                <img src="ley.jpg" class="rounded-circle" alt="your-alt-text" height="50px" width="60px">
+                            </div>
+                            <div class="col-9 ">
+                                <div class="row d-flex justify-content-between align-items-center ps-1">
+                                    <div class="col-10 pt-2 ">
+                                        <div>
+                                            <p><span class="fw-bold">Aleya Marie </span>@aweyaa</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 me-2 ps-0">
+                                        <div><span><i class="fa-solid fa-ellipsis fs-5 py-3"></i></span></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <p class="fw-normal">lovergirl</p>
+                                    <img src="aleya.jpg" class="img-thumbnail" alt="...">
+                                    
+                                    <div class="row pt-4">
+                                        <div class="col"><span><i class="fa-solid fa-comment"></i></span>
+                                            <span class="d-inline">9.1K</span> 
+                                        </div>
+                                        <div class="col"><span><i class="fa-solid fa-share-from-square"></i></span>
+                                            <span class="d-inline">8.1K</span> 
+                                        </div>
+                                        <div class="col"><i class="fa-solid fa-heart"></i>
+                                            <span class="d-inline">20.2k</span> 
+                                        </div>
+                                        <div class="col"><span><i class="fa-solid fa-share-nodes"></i></span></div>
+                                    </div>
+                        
+                                </div>
+                        
+                            </div>
+                        </div>
+                      
+                         <!-- TWEET 5 -->
+                         <div class="row mt-1 border d-flex  ">
+                            <div class="col-2 mt-2">
+                        
+                                <img src="dog.jpg" class="rounded-circle" alt="your-alt-text" height="50px" width="60px">
+                            </div>
+                            <div class="col-9 ">
+                                <div class="row d-flex justify-content-between align-items-center ps-1">
+                                    <div class="col-10 pt-2 ">
+                                        <div>
+                                            <p><span class="fw-bold">SophiaYvonne </span>@sopsop</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 me-2 ps-0">
+                                        <div><span><i class="fa-solid fa-ellipsis fs-5 py-3"></i></span></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <p class="fw-normal">Sugar Honey</p>
+                                    <div class="container">
+                                        <div class="row">
+                                          <div class="col-sm-6">
+                                        
+                                            <img src="sugar.jpg" class="img-fluid" alt="First Image">
+                                          </div>
+                                          <div class="col-sm-6">
+                                            <img src="honey.jpg" class="img-fluid" alt="Second Image">
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+                                    
+                                    <div class="row pt-4">
+                                        <div class="col"><span><i class="fa-solid fa-comment"></i></span>
+                                            <span class="d-inline">10.1K</span> 
+                                        </div>
+                                        <div class="col"><span><i class="fa-solid fa-share-from-square"></i></span>
+                                            <span class="d-inline">1.1K</span> 
+                                        </div>
+                                        <div class="col"><i class="fa-solid fa-heart"></i>
+                                            <span class="d-inline">32.2k</span> 
+                                        </div>
+                                        <div class="col"><span><i class="fa-solid fa-share-nodes"></i></span></div>
+                                    </div>
+                        
+                                </div>
+                        
+                            </div>
+                        </div>
+                        <!-- TWEET 6 -->
+                        <div class="row mt-1 border d-flex  ">
+                            <div class="col-2 mt-2">
+                        
+                                <img src="ma.jpg" class="rounded-circle" alt="your-alt-text" height="50px" width="60px">
+                            </div>
+                            <div class="col-9 ">
+                                <div class="row d-flex justify-content-between align-items-center ps-1">
+                                    <div class="col-10 pt-2 ">
+                                        <div>
+                                            <p><span class="fw-bold">Angelica </span>@ma.torrejos</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 me-2 ps-0">
+                                        <div><span><i class="fa-solid fa-ellipsis fs-5 py-3"></i></span></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="container">
+                                        <div class="row">
+                                          <div class="col-sm-6">
+                                        
+                                            <img src="angels.jpg" class="img-fluid" alt="First Image">
+                                          </div>
+                                          <div class="col-sm-6">
+                                            <img src="angel.jpg" class="img-fluid" alt="Second Image">
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                
+                                    <div class="row pt-4">
+                                        <div class="col"><span><i class="fa-solid fa-comment"></i></span>
+                                            <span class="d-inline">1.2K</span> 
+                                        </div>
+                                        <div class="col"><span><i class="fa-solid fa-share-from-square"></i></span>
+                                            <span class="d-inline">2.1K</span> 
+                                        </div>
+                                        <div class="col"><i class="fa-solid fa-heart"></i>
+                                            <span class="d-inline">21.2k</span> 
+                                        </div>
+                                        <div class="col"><span><i class="fa-solid fa-share-nodes"></i></span></div>
+                                    </div>
+                        
+                                </div>
+                        
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+                     
+            <!-- RIGHT SIDE BAR -->
+            
+            <!-- Search bar -->
+            <div class="col-lg-4 d-none d-lg-block  w-20 h-20 right_side_bar">
+                <div class="">
+                    <div class="bg-opacity-10 bg-black rounded-pill">
+                        <div class="row d-flex align-items-center ">
+                            <div class="col-2 text-end fs-4">
+                                <span><i class="fa-solid fa-magnifying-glass ps-4"></i></span>
+                            </div>
+                            <div class="col-10"><input type="text"
+                                    class="form-control-lg border-0 me-1 w-75 bg-transparent"
+                                    placeholder="Search Twitter"></div>
+                        </div>
+                    </div>
+                    <!-- TRENDS POST -->
+                    <div class="row bg-opacity-10 bg-black mx-1 my-2 pb-3 rounded-3">
+                        <div class="col">
+                            <div class="trending">
+                                <p class="fs-6 fw-bold py-2">Trends for you</p>
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p class="m-0">Trending in Philippines</p>
+                                    </div>
+                                    <div class="col-3 text-end">
+                                        <span><i class="fa-solid fa-ellipsis pe-2"></i></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-6 fw-bold mb-0">#DonnaSingleForever</p>
+                                        <p class="">12.7k Tweets</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p class="m-0">Music . Trending</p>
+                                    </div>
+                                    <div class="col-3 text-end">
+                                        <span><i class="fa-solid fa-ellipsis pe-2"></i></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-6 fw-bold mb-0">#Flower-Jisoo</p>
+                                        <p class="">101k Tweets</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p class="m-0">Trending in Philippines</p>
+                                    </div>
+                                    <div class="col-3 text-end">
+                                        <span><i class="fa-solid fa-ellipsis pe-2"></i></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-6 fw-bold mb-0">#Layo pa pero layo na</p>
+                                        <p class="">132k Tweets</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p class="m-0">Trending in Philippines</p>
+                                    </div>
+                                    <div class="col-3 text-end">
+                                        <span><i class="fa-solid fa-ellipsis pe-2"></i></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-6 fw-bold mb-0">#Asa na ang City Scholar Allowance huhu</p>
+                                        <p class="">10.1k Tweets</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p class="m-0">Trending in Philippines</p>
+                                    </div>
+                                    <div class="col-3 text-end">
+                                        <span><i class="fa-solid fa-ellipsis pe-2"></i></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-6 fw-bold mb-0">#Mawapa nata guys</p>
+                                        <p class="">141k Tweets</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p class="m-0">Trending in Philippines</p>
+                                    </div>
+                                    <div class="col-3 text-end">
+                                        <span><i class="fa-solid fa-ellipsis pe-2"></i></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-6 fw-bold mb-0">#Layo pa pero layo na</p>
+                                        <p class="">2,449 Tweets</p>
+                                    </div>
+                                </div>
+
+                                <span class="text-info">Show more</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
